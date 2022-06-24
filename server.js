@@ -26,6 +26,6 @@ app.use("/routes/home/", require("./routes/home"));
 app.use("/routes/searchacoach/", require("./routes/searchacoach"));
 app.use("/routes/poa/", require("./routes/poa"));
 
-app.listen(5000, () => {
+app.listen(port, () => {
   console.log("Server is running on port http://localhost:5000/");
 });
