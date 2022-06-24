@@ -12,11 +12,11 @@ mongoose.connect(
 module.exports = {
   Coach: require("./Coach"),
   Olympics: require("./Olympics"),
-  Report: require("./Report"),
+  Report: require("./report"),
   Athlete: require("./Athlete"),
   Guinness: require("./Guinness"),
-  EvaluationForm: require("./EvaluationForm"),
-  ContactUs: require("./ContactUs"),
+  EvaluationForm: require("./evaluationform"),
+  ContactUs: require("./contactus"),
   Breaktherecord: require("./Breaktherecord"),
-  Trainings: require("./Trainings"),
+  Trainings: require("./trainings"),
 };
