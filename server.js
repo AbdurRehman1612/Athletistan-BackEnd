@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const cors = require("cors");
-const originURL = ["http://localhost:3000"];
+const originURL = ["https://athletistan.herokuapp.com"];
 const bodyParser = require("body-parser");
 const port = process.env.PORT || 5000;
 
